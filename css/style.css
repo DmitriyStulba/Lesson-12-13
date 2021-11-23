@@ -64,20 +64,19 @@ body {
    color: rgb(31, 30, 30);
    background-color: transparent;
    font-size: 75px;
-
 }
-
 .main {
 	max-width: 100%;
 	margin: 0px auto;
+   position: relative;
 }
-
  /*  */
 .car {
    width: 600px;
    height: 400px;
    position: relative;
    margin: 0px auto;
+   bottom: -500px;
    animation-name: carauto;
    animation-duration: 10s;
    animation-delay: 0s;
