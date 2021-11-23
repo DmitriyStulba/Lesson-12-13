@@ -79,8 +79,7 @@ body {
    height: 400px;
    position: relative;
    margin: 0px auto;
-   top: 00px;
-   margin: 0 auto;
+   top: 500px;
    animation-name: carauto;
    animation-duration: 10s;
    animation-delay: 0s;
