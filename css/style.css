@@ -74,12 +74,10 @@ body {
 
  /*  */
 .car {
-   display: block;
    width: 600px;
    height: 400px;
    position: relative;
    margin: 0px auto;
-   top: 500px;
    animation-name: carauto;
    animation-duration: 10s;
    animation-delay: 0s;
@@ -330,7 +328,7 @@ body {
 } 
 @keyframes carauto {
    0% {
-      transform: translate(2000px, -50px);
+      transform: translate(2000px, 0px);
       
    }
    58.8% {
@@ -353,7 +351,7 @@ body {
    } 
 
    100% {
-      transform: translate(-5000px, 500px); 
+      transform: translate(-5000px, 400px); 
    } 
 }
 
